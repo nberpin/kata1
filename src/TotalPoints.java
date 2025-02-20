@@ -2,6 +2,7 @@
 public class TotalPoints {
 
     public static int points(String[] games) {
+        //le añado un comentario
         int total=0;
         for (String game: games){
             String[] parts = game.split(":"); // Divide el string en dos partes
