@@ -10,7 +10,8 @@ public class TotalPoints {
             int y = Integer.parseInt(parts[1]); // Convierte la segunda parte a entero
             if (x>y) {
                 total+=3;
-            } else if (x==y){
+            }
+            if (x==y){
                 total+=1;
             }
 
